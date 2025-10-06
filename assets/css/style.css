@@ -1,0 +1,86 @@
+/* No arquivo: style.css */
+
+body {
+    /* Define uma fonte mais moderna para a página */
+    font-family: sans-serif;
+    
+    /* Remove margens padrão do navegador */
+    margin: 0; 
+    
+    /* Garante que o corpo ocupe pelo menos 100% da altura da tela */
+    min-height: 100vh; 
+    
+    /* A mágica da divisão de cores acontece aqui */
+    /* No arquivo: style.css */
+
+/* Substitua a linha do background por esta */
+/* No arquivo: style.css */
+
+/* Substitua a linha do background por esta */
+background: linear-gradient(
+    180deg, 
+    #f8f9fa 85%, 
+    #2d6a4f 15%
+);
+    
+    /* Faz com que o fundo fique parado mesmo se a página rolar */
+    background-attachment: fixed; 
+}
+.imagem1 {
+width: 300px;
+height: auto;
+position: fixed;
+bottom: 0;
+right: 0;
+margin: 10px;
+}
+.p1 {
+    position: relative;
+    left:75px;
+    top:50px;
+    font-size:37px;
+
+}
+#botao_cidadao {
+    position:relative;
+    margin-left:35px;
+    top:30px;
+    width:100px;
+    height:40px;
+
+}
+#botao_reciclador {
+    position:relative;
+    margin-left:35px;
+    top:30px;
+    width:100px;
+    height:40px
+}
+.botões_pagina1 {
+    background-color: rgba(244, 91, 3, 0.855);
+    color:white;
+    border: none;
+    cursor:pointer;
+    border-radius: 10px;
+    display:inline-block;
+}
+.logo {
+    color:#063e25
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.frase_de_efeito {
+    position:absolute;
+    margin-left:350px;
+    margin-top: 4px;
+    color:rgb(19, 86, 19);
+}
+.objetivo {
+    margin-left: 350px;
+    margin-top: 150px;
+    position:absolute;
+
+}
