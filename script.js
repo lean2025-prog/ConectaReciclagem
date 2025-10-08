@@ -1,4 +1,4 @@
-// No arquivo: script.js
+
 
 // Esta linha garante que o código só vai rodar depois que todo o HTML for carregado.
 document.addEventListener('DOMContentLoaded', function() {

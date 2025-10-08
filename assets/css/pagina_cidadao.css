@@ -8,12 +8,12 @@ body {background: linear-gradient(
     background-attachment: fixed; }
 
 .linha {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 4px;
-    margin-bottom:px;
-    margin-left: 20px;
+    margin-bottom:5px !important;
+    margin-left: 40px;
 }
 
 .linha p {
@@ -25,6 +25,7 @@ body {background: linear-gradient(
 .linha input {
     width: 30%;
     padding: 5px;
+    border-radius: 5%;
 }
 #botao_enviar {
     background-color: rgb(255, 98, 0);
@@ -32,7 +33,24 @@ body {background: linear-gradient(
     width:140px;
     height:45px;
     color:white;
-    margin-left: 460px;
+    margin-left: 700px;
     border:none;
     cursor:pointer;
+}
+.familia {
+    width: 600px;
+    height:auto;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+}
+.footer {
+    /* --- A SOLUÇÃO ESTÁ AQUI --- */
+    width: 100%;             /* 1. Força o rodapé a ocupar 100% da largura da tela */
+    box-sizing: border-box;  /* 2. Garante que o padding não "estoure" a largura */
+    
+    text-align: center;      /* 3. Agora, este comando vai centralizar o texto corretamente */
+    padding: 20px;
+    font-size: 0.8em;
+    color: #fffcfc;
 }

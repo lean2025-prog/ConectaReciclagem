@@ -1,3 +1,4 @@
+frm.addEventListener("submit", (e) => e.preventDefault());
 document.addEventListener('DOMContentLoaded', function() {
     // Pega o elemento h1 onde a mensagem vai aparecer
     const frase_cidadao = document.querySelector(".mensagem_de_parabens_cidadao");

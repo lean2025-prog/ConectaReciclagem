@@ -101,9 +101,9 @@ body {
     color: #fffcfc;
 }
 .dupla {
-  width: 300px;
-  height:auto;
-  margin-top: -50px !important;
+  width: auto;
+  height:400px;
+  margin-top: -9px !important;
   display:block;
   margin:0 auto;
 }

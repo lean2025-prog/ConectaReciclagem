@@ -1,5 +1,5 @@
 
-    
+frm.addEventListener("submit", (e) => e.preventDefault());    
 const enviar = document.getElementById("botao_enviar");
 enviar.addEventListener('click', function() {
     const nome = document.getElementById("nameinput").value;
