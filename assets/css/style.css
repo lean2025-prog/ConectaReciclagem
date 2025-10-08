@@ -67,25 +67,13 @@ body {
 
 /*Botão Iniciar Processo*/
 .botInici {
-    width: 10%;
-    height: 40%;
     display: inline-block; /* faz o link se comportar como botão */
     text-decoration: none; /* remove o sublinhado do texto do botão. */
-    padding: 12px 24px;
     font-size: 1.2rem; /* tamanho da fonte do texto do botão.*/
     border-radius: 12px; /* bordas arredondadas */
     background-color: orangered; /*Cor do botão */
    
     color: rgb(255, 255, 255);
-    position: relative;
-    bottom: 50px;
-
-       /*Centralizar no desktop com flex/grid*/
-    margin-left: auto;
-    margin-right: 2%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .botInici:hover {
@@ -114,9 +102,6 @@ body {
     height: auto;          /* Mantém a proporção */
     display: block;        /* Remove pequenos gaps de inline */
     margin-left: auto;     /* Empurra a imagem para o lado direito */
-    margin-right: 0;
-    margin-bottom: 20;
-    margin-top: 20;
     transform: translateY(-400px); /* Sobe a imagem 20px */
 }
 
@@ -166,3 +151,11 @@ footer {
         text-align: center;
     }
 }
+.botaoIniciarProcesso {
+    position: relative;
+    display: flex; /* Alinha o botão à direita */
+    align-items: center;       /* Centraliza verticalmente (opcional) */
+    margin-top: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 90px;}

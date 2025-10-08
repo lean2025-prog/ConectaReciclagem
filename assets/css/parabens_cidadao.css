@@ -1,3 +1,30 @@
 body {
-    background-color: #f6fadd;
+    background-color: #eeeee3;
+}
+.mensagem_de_parabens_cidadao {
+    color:#0f5301;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.familia2 {
+    width:500px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    margin-top: -30px;
+}
+#botao_inicio_cidadao {
+    width:150px;
+    height:60px;
+    white-space:normal;
+    text-align: center;
+    margin:0 auto;
+    margin-top:30px;
+    display:block;
+    background-color: orangered;
+    color:white;
+    border-radius: 5%;
+    border:none;
+    cursor:pointer;
 }
