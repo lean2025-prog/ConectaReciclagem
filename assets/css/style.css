@@ -34,28 +34,7 @@ bottom: 0;
 right: 0;
 margin: 10px;
 }
-.p1 {
-    position: relative;
-    left:75px;
-    top:50px;
-    font-size:37px;
 
-}
-#botao_cidadao {
-    position:relative;
-    margin-left:35px;
-    top:30px;
-    width:100px;
-    height:40px;
-
-}
-#botao_reciclador {
-    position:relative;
-    margin-left:35px;
-    top:30px;
-    width:100px;
-    height:40px
-}
 .botões_pagina1 {
     background-color: rgba(244, 91, 3, 0.855);
     color:white;
@@ -72,15 +51,118 @@ margin: 10px;
     bottom:0;
     left:0;
 }
-.frase_de_efeito {
-    position:absolute;
-    margin-left:350px;
-    margin-top: 4px;
-    color:rgb(19, 86, 19);
-}
-.objetivo {
-    margin-left: 350px;
-    margin-top: 150px;
-    position:absolute;
 
+
+body {
+    font-size: 16px; /* ou 1rem */
+    font-family: 'Agrandir', Arial, sans-serif;
+}
+
+.titulo {
+    position: relative; /*Margem flexível*/
+    left: 10px; top: 15px;
+    margin-top: 10px;
+    font-size: 2.5rem; /*Cresce ou diminui conforme a tela*/
+}
+
+/*Botão Iniciar Processo*/
+.botInici {
+    width: 10%;
+    height: 40%;
+    display: inline-block; /* faz o link se comportar como botão */
+    text-decoration: none; /* remove o sublinhado do texto do botão. */
+    padding: 12px 24px;
+    font-size: 1.2rem; /* tamanho da fonte do texto do botão.*/
+    border-radius: 12px; /* bordas arredondadas */
+    background-color: orangered; /*Cor do botão */
+   
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 50px;
+
+       /*Centralizar no desktop com flex/grid*/
+    margin-left: auto;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botInici:hover {
+    background-color: #cc3700; /* Tom mais escuro no hover */
+}
+
+
+
+.pag1_Paragr1 {
+    margin-left: 2%;
+    margin-top: 15px;
+    font-size: 4rem;
+    color: #02634f;
+}
+
+.pag1_Paragr2 {
+    margin-left: 2%;
+    margin-top: 15px;
+    font-size: 2vw;
+    color: rgb(11, 11, 11);
+}
+
+.imagem_Pg1 {
+    position: relative;
+    max-width: 40%;       /* A imagem não ultrapassa o tamanho do container */
+    height: auto;          /* Mantém a proporção */
+    display: block;        /* Remove pequenos gaps de inline */
+    margin-left: auto;     /* Empurra a imagem para o lado direito */
+    margin-right: 0;
+    margin-bottom: 20;
+    margin-top: 20;
+    transform: translateY(-400px); /* Sobe a imagem 20px */
+}
+
+.barraHorizontal {
+    width: 100%;
+    height: 10px;
+    background: #02634f;
+    margin: 0;
+    z-index: -1; /* Joga para trás do conteúdo (texto, etc.) */
+}
+
+footer {
+    width: 100%;               /* Ocupa toda a largura da tela */
+    background-color: #02634f; /* Cor de fundo */
+    color: white;              /* Cor do texto */
+    text-align: center;        /* Centraliza o texto */
+    padding: 20px 0;           /* Espaçamento interno em cima e embaixo */
+    position: relative;        /* Pode usar fixed se quiser fixo na tela */
+    bottom: 0;                 /* Para fixar no final se usar position: fixed */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Empilha texto e imagem */
+        align-items: center;
+    }
+
+    .imagem_Pg1 {
+        max-width: 80%;
+        transform: none; /* remove a subida fixa */
+    }
+
+    .botInici {
+        justify-content: center; /* Centraliza os botões */
+        margin-top: 10px;
+    }
+
+    
+
+    .pag1_Paragr1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .pag1_Paragr2 {
+        font-size: 3.5vw;
+        text-align: center;
+    }
 }

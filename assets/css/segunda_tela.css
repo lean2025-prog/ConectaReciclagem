@@ -1,0 +1,109 @@
+/* No arquivo: assets/css/segunda_tela.css */
+
+/*
+  Primeiro, preparamos o corpo da página para ser o nosso layout principal.
+*/
+body {
+    margin: 0; /* Remove margens padrão */
+    display: flex;
+    flex-direction: column; /* Organiza os itens em uma coluna (logo, conteúdo, footer) */
+    min-height: 100vh;      /* Garante que o corpo ocupe 100% da altura da tela */
+    font-family: sans-serif;
+    background: linear-gradient(
+    180deg, 
+    #f1f4e2 85%, 
+    #2d6a4f 15%
+);
+}
+
+/*
+  Estilo para o logo no topo da página.
+*/
+.logo {
+    text-align:left;
+    padding: 20px;
+    color: #063e25;
+}
+
+/*
+  Esta é a regra chave para a centralização.
+  Dizemos para o container principal crescer e ocupar todo o espaço
+  vertical disponível, e então usamos flex para centralizar o seu conteúdo interno.
+*/
+.segunda_tela_container {
+    flex-grow: 1; /* Faz este container crescer para empurrar o footer para baixo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+}
+
+/*
+  Estilo para o título "Você é:".
+*/
+.p1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+/*
+  Grupo dos botões, para ficarem lado a lado.
+*/
+.botoes_cidadao_reciclador {
+    display: flex;
+    gap: 30px;
+}
+
+/*
+  Estilos dos botões (com as cores laranja que definimos).
+*/
+.botões_pagina1 {
+    padding: 20px 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 3px solid #f48c06;
+    transition: all 0.3s ease;
+}
+
+#botao_cidadao {
+    background-color: #f48c06;
+    color: white;
+}
+#botao_cidadao:hover {
+    background-color: #e85d04;
+    border-color: #e85d04;
+}
+
+#botao_reciclador {
+    background-color: transparent;
+    color: #f48c06;
+}
+#botao_reciclador:hover {
+    background-color: #f48c06;
+    color: white;
+}
+
+/*
+  Estilo para o rodapé na parte de baixo.
+*/
+/* No seu arquivo principal: assets/css/style.css */
+
+.footer {
+    /* --- A SOLUÇÃO ESTÁ AQUI --- */
+    width: 100%;             /* 1. Força o rodapé a ocupar 100% da largura da tela */
+    box-sizing: border-box;  /* 2. Garante que o padding não "estoure" a largura */
+    
+    text-align: center;      /* 3. Agora, este comando vai centralizar o texto corretamente */
+    padding: 20px;
+    font-size: 0.8em;
+    color: #fffcfc;
+}
+.dupla {
+  width: 300px;
+  height:auto;
+  margin-top: -50px !important;
+  display:block;
+  margin:0 auto;
+}

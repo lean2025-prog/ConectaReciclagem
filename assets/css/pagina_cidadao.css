@@ -33,5 +33,6 @@ body {background: linear-gradient(
     height:45px;
     color:white;
     margin-left: 460px;
-    border:none
+    border:none;
+    cursor:pointer;
 }

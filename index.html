@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <title>ConectaReciclagem</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <h1 class="logo">Conecta Reciclagem</h1>
-        <IMG src="assets/Images/imagem_Pg1.png" alt="moça_notebook" class="imagem1">
-        <h1 class="frase_de_efeito">Você tornando<br> o mundo mais<br> limpo</h1>
-        <p class="objetivo">Temos como objetivo tornar o mundo mais sustentável<br>e consequentemente trazer um desenvolvimento<br> econômico a todos através da inovação, inclusão e<br>sustentabilidade. </p>
-    <form>
-        <p class="p1"><strong>Você é:</strong></p>
-        <input type="button" value="CIDADÃO" id="botao_cidadao" class="botões_pagina1">
-        <input type="button" value="RECICLADOR" id="botao_reciclador" class="botões_pagina1">
-    </form>
-    <footer class="footer">
-    <p class="footer">&copy; 2025 Conecta Reciclagem - Todos os direitos reservados - Flavia, Raquel, Leandro, Alice e Joelson</p> 
-    </footer>
-    <script src="script.js"></script>
-    </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectaReciclagem</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- "<header> - é usado para introduzir o conteúdo de uma página ou seção, normalmente trazendo título, logo e até menu." -->
+    <header>
+        <h1 class="titulo">Conecta Reciclagem</h1>
+        <!--"<nav
+        > - defini áreas de navegação em uma página. Ou seja, links principais de navegação (menus, atalhos,etc.)."-->
+        <nav>
+            <!--"<div> - é um contêiner genérico, uma “caixinha” para aplicar estilos, 
+                posicionamento e manipulação dinâmica." -->
+            <!--"class - é um atributo que serve para dar nome (ourótulo) a um elemento HTML, permitindo aplicar estilos ou manipulações." -->
+            <div class="botaoIniciarProcesso">
+                <!-- "<a> - cria links em HTML, conectando páginas, arquivos e até seções dentro da mesma página." -->
+                <a href="segunda_tela.html" class="botInici">Iniciar processo de reciclagem</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--"<main> - (deve ter um apor página) marca o conteúdo único e principal da página, dentro dela pode ter <section>, <article>, <aside>, etc." -->
+    <main>
+        <article>
+            <p class="pag1_Paragr1">Você tornando<br/> o mundo mais <br/> limpo</p>
+            <p class="pag1_Paragr2">Temos como objetivo tornar o mundo mais sustentável<br/>e, consequentemente, promover o desenvolvimento<br/> econômico de todos, por meio da inovação, inclusão e<br/> sustentabilidade.</p>
+            <img class="imagem_Pg1" src="assets/images/imagem_Pg1.png" alt="pessoa acessando o site">
+        </article>
+    </main>
+
+<footer class="footer">
+    <p>&copy; 2025 Conecta Reciclagem - Todos os direitos reservados - Flavia, Raquel, Leandro, Alice e Joelson</p> 
+    <div class="barraHorizontal"></div>
+</footer>
+
+</body>
+</html>
