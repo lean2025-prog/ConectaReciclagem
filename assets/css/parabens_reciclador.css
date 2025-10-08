@@ -1,0 +1,30 @@
+body {
+    background-color: #eeeee3;
+}
+#botao_inicio_reciclador {
+    width:150px;
+    height:60px;
+    white-space:normal;
+    text-align: center;
+    margin:0 auto;
+    margin-top:500px;
+    display:block;
+    background-color: orangered;
+    color:white;
+    border-radius: 5%;
+    border:none;
+    cursor:pointer;
+    font-size: 17px;
+}
+.frase_parabens_reciclador {
+    text-align: center;
+    color: rgb(57, 105, 48);
+}
+.reciclador2 {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 580px;
+    margin-top: -620px;
+
+}
