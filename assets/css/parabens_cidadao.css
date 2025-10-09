@@ -28,3 +28,10 @@ body {
     border:none;
     cursor:pointer;
 }
+.logo2 {
+    position:absolute;
+    margin:0;
+    right:0;
+    width:200px;
+    height:auto;
+}

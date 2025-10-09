@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <title>Área do cidadão - ConectaReciclagem</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/pagina_cidadao.css">
-    </head>
-        <body>
-        <h1 class="cidadao_tit1">Para darmos continuidade, preencha as informações abaixo:</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Cidadão - ConectaReciclagem</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pagina_cidadao.css">
+</head>
+<body>
+    <h1 class="cidadao_tit1">Para darmos continuidade, preencha as informações abaixo:</h1>
 
-        <div class="linha">
+    <img src="assets/Images/logo.png" alt="logo_conecta" class="logo">
+    
+    <div class="linha">
         <p class="name">Nome:</p>
-        <input type="text" id="nameinput" required></div>
+        <input type="text" id="nameinput" required>
+    </div>
 
-        <div class="linha">
+    <div class="linha">
         <p class="contato">Contato:</p>
-        <input type="text" id="contatoinput" required></div>
+        <input type="text" id="contatoinput" required>
+    </div>
 
-        <div class="linha">
+    <div class="linha">
         <p class="endereco">Endereço:</p>
-        <input type="text" id="enderecoinput" required></div>
+        <input type="text" id="enderecoinput" required>
+    </div>
 
-        <div class="linha">
+    <div class="linha">
         <p class="tipo_do_material">Tipo do material:</p>
-        <input type="text" id="materialinput" required></div>
+        <input type="text" id="materialinput" required>
+    </div>
 
-        <div class="linha">
+    <div class="linha">
         <p class="quantidade">Quantidade:</p>
-        <input type="text" id="quantidadeinput" required></div>
-        
-        <div class="linha">
-        <p class="foto_do_material">Foto do material:</p>
-        <input type="file" id="imagem" accept="image/*" required></div>
+        <input type="text" id="quantidadeinput" required>
+    </div>
 
-        <input type="button" value="ENVIAR" id="botao_enviar" required>
+    <input type="button" value="ENVIAR" id="botao_enviar">
 
-        <img src="assets/Images/familia.png" alt="familia" class="familia">
-        <script src="pagina-cidadao.js"></script>
-        <footer class="footer">
-        <p class="footer">&copy; 2025 Conecta Reciclagem - Todos os direitos reservados - Flavia, Raquel, Leandro, Alice e Joelson</p> 
+    <img src="assets/Images/familia.png" alt="familia" class="familia">
+    
+    <footer class="footer">
+        <p>&copy; 2025 Conecta Reciclagem - Todos os direitos reservados - Flavia, Raquel, Leandro, Alice e Joelson</p> 
     </footer>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
+
+    <script src="pagina-cidadao.js"></script>
 </body>
 </html>

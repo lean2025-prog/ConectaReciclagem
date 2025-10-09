@@ -158,4 +158,17 @@ footer {
     margin-top: 0px;
     padding: 10px;
     height: 50px;
-    width: 90px;}
+    width: 90px;
+    right: 0;
+    top: 0;        }
+    
+    .logo {
+  position: fixed; /* permite posicionar livremente */
+  top: 0;             /* encosta no topo */
+  right: 0;           /* encosta na direita */
+  width: 270px;       /* ajusta o tamanho se quiser */
+  height: auto;
+}
+
+
+    
